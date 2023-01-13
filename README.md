@@ -87,7 +87,7 @@ def toggle_dark_mode():
     messages.config(bg="#eee", fg="#333")
     dark_mode_button.config(bg="#eee", fg="#333")
 
-dark_mode_button = tk.Button(root, text="Dunkelmodus", command=toggle_dark_mode)
+dark_mode_button = tk.Button(root, text="Darkmode", command=toggle_dark_mode)
 dark_mode_button.pack()
 
 root.mainloop()
